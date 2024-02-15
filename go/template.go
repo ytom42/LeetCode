@@ -10,7 +10,8 @@ func main() {
 	inputs := []TestSet{}
 
 	for _, v := range inputs {
-		fmt.Println("Exp:", v.Expected, "Your Output:")
+		ret := TestSet{}
+		fmt.Println("Exp:", v.Expected, "Your Output:", ret)
 	}
 
 	return
